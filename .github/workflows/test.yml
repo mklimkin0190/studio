@@ -1,5 +1,5 @@
 name: Rasa Pro Studio Deployment
-run-name: Studio [${{ inputs.UUID }}]
+run-name: Studio ${{ inputs.uuid }}
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
       studioVersion:
         description: "Studio version to deploy. For example '0.1.4'"
         required: false
-      UUID:
+      uuid:
         description: "Smth"
         required: true
 
