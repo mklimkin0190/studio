@@ -7,9 +7,6 @@ on:
       - ci-cd-integration-test
   workflow_dispatch:
     inputs:
-      studioVersion:
-        description: "Studio version to deploy. For example '0.1.4'"
-        required: false
       uuid:
         description: "Smth"
         required: true
