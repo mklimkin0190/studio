@@ -3,7 +3,7 @@ name: Rasa Pro Studio Deployment
 on:
   push:
     branches:
-      - ci-cd-integration-test
+      - ci-cd-integration-tes
   workflow_dispatch:
     inputs:
       studioVersion:
