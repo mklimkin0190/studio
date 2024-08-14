@@ -10,6 +10,12 @@ on:
       uuid:
         description: "Smth"
         required: true
+      modelUrl:
+        description: "The URL of the model to deploy"
+        required: true
+      endpointsYml:
+        description: "The endpoints.yml of the assistant"
+        required: true
 
 jobs:
   studio-webhook:
