@@ -2,9 +2,6 @@ name: Rasa Pro Studio Deployment
 run-name: Studio ${{ inputs.uuid }}
 
 on:
-  push:
-    branches:
-      - ci-cd-integration-test
   workflow_dispatch:
     inputs:
       uuid:
@@ -12,9 +9,6 @@ on:
         required: true
       modelUrl:
         description: "The URL of the model to deploy"
-        required: true
-      endpointsYml:
-        description: "The endpoints.yml of the assistant"
         required: true
 
 jobs:
